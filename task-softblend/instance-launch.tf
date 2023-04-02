@@ -21,7 +21,7 @@ module "instace_sg" {
     {
       from_port   = 22
       to_port     = 22
-      protocol    = "-1"
+      protocol    = "tcp"
       description = "SSH from Anywhere"
       cidr_blocks = "0.0.0.0/0"
     }
