@@ -1,0 +1,4 @@
+task-softblend/.terraform/
+task-softblend/.terraform.lock.hcl
+task-softblend/terraform.*
+
